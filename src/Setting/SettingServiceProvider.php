@@ -19,7 +19,7 @@ class SettingServiceProvider extends ServiceProvider
         $filename = '2018_10_22_141216_create_settings_table.php';
 
         $this->publishes([
-            __DIR__.'/../../database/migrations/'.$filename => base_path('/database/migrations/'.$filename),
+            __DIR__.'/../../database/migrations/'.$filename => base_path('/database/migrations/'.date('Y_m_d_His', time()).'_create_settings_table.php'),
         ], 'settings');
     }
 
