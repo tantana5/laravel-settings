@@ -16,7 +16,7 @@
 1. Install package
 
     ```bash
-    composer require unisharp/laravel-settings
+    composer require tantana5/laravel-settings
     ```
 
 1. Edit config/app.php (Skip this step if you are using laravel 5.5+)
@@ -24,13 +24,13 @@
     service provider:
 
     ```php
-    Unisharp\Setting\SettingServiceProvider::class,
+    Tantana5\Setting\SettingServiceProvider::class,
     ```
 
     class aliases:
 
     ```php
-    'Setting' => Unisharp\Setting\SettingFacade::class,
+    'Setting' => Tantana5\Setting\SettingFacade::class,
     ```
 
 1. Create settings table
@@ -100,17 +100,17 @@ By default language parameter are being resets every set or get calls. You could
 Setting::lang(App::getLocale())->langResetting(false);
 ```
 
-[ico-version]: https://img.shields.io/packagist/v/UniSharp/categorizable.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/Tantana5/categorizable.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/UniSharp/categorizable/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/UniSharp/categorizable.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/UniSharp/categorizable.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/UniSharp/categorizable.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/Tantana5/categorizable/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/Tantana5/categorizable.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/Tantana5/categorizable.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/Tantana5/categorizable.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/unisharp/categorizable
-[link-travis]: https://travis-ci.org/UniSharp/categorizable
-[link-scrutinizer]: https://scrutinizer-ci.com/g/UniSharp/categorizable/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/UniSharp/categorizable
-[link-downloads]: https://packagist.org/packages/UniSharp/categorizable
-[link-author]: https://github.com/UniSharp
+[link-travis]: https://travis-ci.org/Tantana5/categorizable
+[link-scrutinizer]: https://scrutinizer-ci.com/g/Tantana5/categorizable/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/Tantana5/categorizable
+[link-downloads]: https://packagist.org/packages/Tantana5/categorizable
+[link-author]: https://github.com/Tantana5
 [link-contributors]: ../../contributors
