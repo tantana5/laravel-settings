@@ -42,6 +42,5 @@
         "Setting": "Tantana5\\Setting\\SettingFacade"
       }
     }
-  },
-  "minimum-stability": "dev"
+  }
 }
